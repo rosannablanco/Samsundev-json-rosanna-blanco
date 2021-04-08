@@ -10,9 +10,9 @@
     <geolocalización>40.40855</geolocalización>
     <geolocalización>-3.70098</geolocalización>
   </dirección>
-  <secciones>
+  <secciones array="true">
     <seccion>limpieza</seccion>
-    <productos>
+    <productos array="true">
       <id number="true">1</id>
       <nombre>lavavajillas</nombre>
       <marca>fairy</marca>
@@ -28,53 +28,6 @@
         <periodo-vigencia>
           <inicio>06/4/2021</inicio>
           <fin>06/6/2021</fin>
-        </periodo-vigencia>
-      </oferta>
-      <obtenido boolean="true">false</obtenido>
-    </productos>
-    <productos>
-      <id number="true">2</id>
-      <nombre>lavavajillas</nombre>
-      <marca>supermercado1</marca>
-      <envase number="true">1</envase>
-      <envase number="true">1.5</envase>
-      <medida>litro</medida>
-      <precio number="true">1.75</precio>
-      <precio number="true">2.25</precio>
-      <moneda>€</moneda>
-      <oferta>
-        <estado boolean="true">true</estado>
-        <descuento number="true">10</descuento>
-        <periodo-vigencia>
-          <inicio>06/4/2021</inicio>
-          <fin>06/6/2021</fin>
-        </periodo-vigencia>
-      </oferta>
-      <obtenido boolean="true">false</obtenido>
-    </productos>
-  </secciones>
-  <secciones>
-    <seccion>lacteos</seccion>
-    <productos array="true">
-      <id number="true">1</id>
-      <nombre>yogur</nombre>
-      <marca>danone</marca>
-      <envase number="true">4</envase>
-      <envase number="true">8</envase>
-      <envase number="true">12</envase>
-      <envase number="true">24</envase>
-      <medida>unidad</medida>
-      <precio number="true">1.00</precio>
-      <precio number="true">1.35</precio>
-      <precio number="true">1.75</precio>
-      <precio number="true">2.25</precio>
-      <moneda>€</moneda>
-      <oferta>
-        <estado boolean="true">false</estado>
-        <descuento null="true"/>
-        <periodo-vigencia>
-          <inicio null="true"/>
-          <fin null="true"/>
         </periodo-vigencia>
       </oferta>
       <obtenido boolean="true">false</obtenido>
