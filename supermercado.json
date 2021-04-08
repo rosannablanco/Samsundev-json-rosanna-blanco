@@ -1,0 +1,116 @@
+[
+  { 
+    "nombre": "supermercado1",
+    "dirección" : {
+      "via": "calle",
+      "nombre": "supermercado1",
+      "num":"1",
+      "cp":"28005",
+      "población": "Madrid",
+      "geolocalización": ["40.40855", "-3.70098"]
+    },
+    "secciones":[
+      {
+        "seccion":"limpieza",
+        "productos":[
+          {
+            "id":1,
+            "nombre":"lavavajillas",
+            "marca": "fairy",
+            "envase": [1, 1.5],
+            "medida":"litro",
+            "precio": [1.75, 2.25],
+            "moneda" : "€",
+            "oferta": {  
+              "estado":true, 
+              "descuento": 10,
+              "periodo-vigencia": {
+                "inicio":"06/4/2021",
+                "fin":"06/6/2021"
+              }
+            },
+            "obtenido":false
+          },
+          {
+            "id":2,
+            "nombre":"lavavajillas",
+            "marca": "supermercado1",
+            "envase": [1, 1.5],
+            "medida":"litro",
+            "precio": [1.75, 2.25],
+            "moneda" : "€",
+            "oferta": {  
+              "estado":true, 
+              "descuento": 10,
+              "periodo-vigencia": {
+                "inicio":"06/4/2021",
+                "fin":"06/6/2021"
+              }
+            },
+            "obtenido":false
+          }
+        ]
+      },
+      {
+        "seccion":"lacteos",
+        "productos":[
+          {
+            "id":1,
+            "nombre":"yogur",
+            "marca": "danone",
+            "envase": [4, 8, 12, 24],
+            "medida":"unidad",
+            "precio": [1.00, 1.35, 1.75, 2.25],
+            "moneda" : "€",
+            "oferta": {  
+              "estado":false, 
+              "descuento": null,
+              "periodo-vigencia": {
+                "inicio":null,
+                "fin":null
+              }
+            },
+            "obtenido":false
+          }
+        ]
+      }
+    ]               
+  },
+  { 
+    "nombre": "supermercado2",
+    "dirección" : {
+      "via": "avenida",
+      "nombre": "supermercado2",
+      "num":"1",
+      "cp":"28008",
+      "población": "Alcorcón",
+      "geolocalización": ["40.40855", "-3.70098"]
+    },
+    "secciones":[
+      {
+        "seccion":"limpieza",
+        "productos":[
+          {
+            "id":1,
+            "nombre":"lavavajillas",
+            "marca": "fairy",
+            "envase": [1, 1.5],
+            "medida":"litro",
+            "precio": [1.75, 2.25],
+            "moneda" : "€",
+            "oferta": {  
+              "estado":true, 
+              "descuento": 10,
+              "periodo-vigencia": {
+                "inicio":"06/4/2021",
+                "fin":"06/6/2021"
+              }
+            },
+            "obtenido":false
+          }
+        ]
+      }
+    ]               
+  }
+]
+            
